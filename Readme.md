@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Александра Головкова](https://up.htmlacademy.ru/htmlcss/20/user/624231).
-* Наставник: [Егор Глебов] (https://up.htmlacademy.ru/htmlcss/20/user/212499)
+* Наставник: [Егор Глебов](https://up.htmlacademy.ru/htmlcss/20/user/212499)
 
 ---
 
