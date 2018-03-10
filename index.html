@@ -9,7 +9,7 @@
 <header class="main-header">
     <nav class="main-navigation">
         <a class="main-header-logo">
-          <img src="img\img-logo.png" alt="Логотип студии">
+          <img src="img\img-logo.png" alt="Логотип студии" width="160" height="65">
         </a>
         <ul class="site-navigation">
             <li> <a href="studio.html"> Студия </a> </li>
@@ -18,7 +18,9 @@
             <li> <a href="contacts.html"> Контакты </a> </li>
         </ul>
         <ul class ="user-navigation">
-            <li class="bascket">Корзина</li>
+            <li class="bascket">
+                <a class="bascket" href="bascket.html">Корзина</a>
+            </li>
         </ul>
     </nav>
           </header>
@@ -28,35 +30,35 @@
         <div class="advantages">
             <b class="main-text"> Долго, дорого, скурпулезно.</b>
             <p>Математически выверенные дизайн для вашего сайта или мобильного приложения.</p>
-            <img src="picture-layer1" alt="первый слой">
+            <img src="picture-layer1" alt="первый слайд">
          </div>
         <div class="advantages">
             <b class="main-text">Любим математику как никтодругой</b>
             <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-            <img src="picture-layer2" alt="второй слой">
+            <img src="picture-layer2" alt="второй слайд">
          </div>
         <div class="advantages">
             <b class="main-text">Только ночь, только хардкор</b>
             <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-            <img src="picture-layer3" alt="третий слой">
+            <img src="picture-layer3" alt="третий слайд">
          </div>
         <a class="btn" href="more.html">Узнать больше</a>
     </section>
        <section class="services">
            <article class="site">
-               <img src="img\site-logo.png" alt="Веб-сайты">
+               <img src="img\site-logo.png" alt="Веб-сайты" width="300" height="146">
                <h2 class="services-text">Веб-сайты</h2>
                <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
                <button type="button">Заказать</button>
            </article>
            <article class="apps">
-               <img src="img\apps-logo.png" alt="Приложения">
+               <img src="img\apps-logo.png" alt="Приложения" width="300" height="146">
                <h2 class="services-text">Приложения</h2>
                <p>Покорите топ-10 приложений в AppStore и Google Play</p>
                <button type="button">Заказать</button>
            </article>
            <article class="presentations">
-               <img src="img\presentations-logo.png" alt="Презентации">
+               <img src="img\presentations-logo.png" alt="Презентации" width="300" height="146">
                <h2 class="services-text">Презентации</h2>
                <p>Вы даже не подозреваете, насколько вы изумительны!</p>
                <button type="button">Заказать</button>
@@ -91,10 +93,10 @@
           </article>
     <div class="examples">
         <ul class="ground-navigation">
-            <li><a> <img src="img\logo-1-min.png" alt="HTML академия"> </a></li>
-            <li><a> <img src="img\logo-2-min.png" alt="Барбершоп"> </a></li>
-            <li><a> <img src="img\logo-3-min.png" alt="Пинк"> </a></li>
-            <li><a> <img src="img\logo-4-min.png" alt="Мишка"> </a></li>
+            <li><a> <img src="img\logo-1-min.png" alt="HTML академия" width="199" height="68"> </a></li>
+            <li><a> <img src="img\logo-2-min.png" alt="Барбершоп" width="209" height="90"> </a></li>
+            <li><a> <img src="img\logo-3-min.png" alt="Пинк" width="185" height="52"> </a></li>
+            <li><a> <img src="img\logo-4-min.png" alt="Мишка" width="173" height="84"> </a></li>
         </ul>
     </div>
     
@@ -111,19 +113,31 @@
     </div>
     <section class="map">
         <h2 class="visual-hidden">Карта</h2>
-        <img src="img\map1.png" alt="карта">
+        <img src="img\map1.png" alt="карта" width="1440" height="785">
         <span class="map-close">x</span>
     </section>
     <section class="write-us">
         <p class="write-us-head"> NЁRDS DESIGN STUDIO</p>
-        191186, Санкт-Петербург,
-        ул. Конюшенная, д. 19/8
+        <p>191186, Санкт-Петербург,
+            ул. Конюшенная, д. 19/8</p>
         <br>
         тел. +7 (812) 275-75-75
-        <span class="button">Напишите нам</span>
+        <button class="button" type="button" tabindex="0">Напишите нам</button>
     </section>
 </footer>
-
+      <section class="write-us-form"> 
+             <h4>Напишите нам</h4>
+            <form class="write-form" action="https://https://echo.htmlacademy.ru" method="post">
+                <label for="write-form-name">Ваше имя:</label>
+                <input type="text" name="name" id="write-form-name" value="Ваше имя" placeholder="Имя Фамилия" required>
+                <label for="write-form-email">Ваш e-mail:</label>
+                <input type="e-mail" name="email" id="write-form-email" value="Ваша почта" method="post" placeholder="email@example.com" required>
+                <label for="write-form-letter">Текст письма:</label>
+                <textarea id="write-form-letter" name="letter" rows="5" placeholder="В свободной форме"></textarea>
+                <button type="submit" value="Отправить" tabindex="0"></button>
+            </form>
+             <button class="write-form-close" type="button" tabindex="0">Закрыть</button>
+        </section>
   </body>
 </html>
 
