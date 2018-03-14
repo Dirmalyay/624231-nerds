@@ -47,25 +47,30 @@ a {
     line-height: 55px;
 }
 
-.btn{
+.btn {
     background-color: #fb565a;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
+    text-transform: uppercase;
 }
-/*.bt a:hover{
+ 
+/*
+.btn a:hover{
     background-color: #e74246;
 }
-.bt a:focus{
+.btn a:focus{
     box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
     background-color: #d7373b;
-    opacity: 0.3;*/
+    opacity: 0.3;
 }
+*/
 .services-text{
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
+
 }
 .slogan{
     font-size: 45px;
@@ -82,4 +87,36 @@ a {
     font-size: 45px;
     font-weight: 700;
     line-height: 10.06px;
+}
+.sup-text{
+    line-height: 18px;
+}
+.ground-navigation{
+    opacity: 0.2;
+}
+.ground-navigation a:hover{
+    color:  #000000;
+}
+.ground-navigation a:focus{
+    opacity: 0.1;
+}
+.footer-text{
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.discont{
+    color: #444444;
+    line-height: 22px;
+}
+.write-us-head{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.write-us-addres{
+    color: #666666;
+    line-height: 18px;
 }
