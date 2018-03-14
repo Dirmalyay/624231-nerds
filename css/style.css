@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+.main-navigation {
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+    background-color: #eeeeee;
+    text-transform: uppercase;
+}
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+.site-navigation a,
+.user-navigation a {
+     color: #000000;  
+}
+.main-header-logo a:hover{
+    opacity: 0.8;
+}
+.main-header-logo a:focus{
+    opacity: 0.3;
+}
+.site-navigation a:hover,
+.user-navigation a:hover{
+   color: #fb565a;
+}
+.site-navigation a:focus,
+.user-navigation a:focus{
+   opacity: 0.3;
+}
+.main-text{
+    color: #000000;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.btn{
+    background-color: #fb565a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+/*.bt a:hover{
+    background-color: #e74246;
+}
+.bt a:focus{
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d7373b;
+    opacity: 0.3;*/
+}
+.services-text{
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.slogan{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.scope{
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sup{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 10.06px;
+}
