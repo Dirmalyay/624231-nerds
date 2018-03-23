@@ -26,10 +26,10 @@ a {
 .user-navigation a {
      color: #000000;  
 }
-.main-header-logo a:hover{
+.main-header-logo:hover{
     opacity: 0.8;
 }
-.main-header-logo a:focus{
+.main-header-logo:focus{
     opacity: 0.3;
 }
 .site-navigation a:hover,
@@ -53,6 +53,7 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
+    text-align: center;
     text-transform: uppercase;
 }
  
@@ -82,6 +83,9 @@ a {
     font-weight: 700;
     text-transform: uppercase;
 }
+.scope-list{
+   list-style: none; 
+}
 .sup{
     color: #000000;
     font-size: 45px;
@@ -94,10 +98,10 @@ a {
 .ground-navigation{
     opacity: 0.2;
 }
-.ground-navigation a:hover{
+.ground-navigation:hover{
     color:  #000000;
 }
-.ground-navigation a:focus{
+.ground-navigation:focus{
     opacity: 0.1;
 }
 .footer-text{
@@ -119,4 +123,136 @@ a {
 .write-us-addres{
     color: #666666;
     line-height: 18px;
+}
+write-us-head{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+}
+write-form{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.container-sligan{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.choise{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.options{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    list-style: none;
+}
+.choise-coast-value{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.05px;
+}
+.choise-grid-value{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.grid-features-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: none;
+}
+.coast-value-submit{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.social-buttom{
+   list-style: none;
+    color: #000000;
+}
+.btn-order-site{
+width: 160px;
+height: 50px;
+background-color:#fb565a;
+color:#ffffff;
+text-transform: uppercase;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+}
+.btn-order-apps{
+width: 160px;
+height: 50px;
+background-color: #00ca74;
+color:#ffffff;
+text-transform: uppercase;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+
+}
+.btn-order-presentations{
+width: 160px;
+height: 50px;
+background-color:#efc84a;
+color:#ffffff;
+text-transform: uppercase;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+}
+.price-features-text,
+.catalog-all-items,
+.catalog-btn{
+    list-style: none;
+}
+.catalog-item-name{
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+text-align: center;
+
+}
+.catalog-itim-info{
+font-size: 16px;
+font-weight: 400;
+line-height: 18px; 
+text-align: center;
+}
+.catalog-item-btn{
+width: 200px;
+height: 50px;
+background-color: #fb565a;
+color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+text-transform: uppercase;
+}
+.catalog-item-btn:hover{
+background-color: #e74246;
+}
+catalog-item-btn:focus{
+box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+background-color: #d7373b;
+}
+.catalog-list{
+width: 360px;
+height: 231px; 
+background-color: #eeeeee;
 }

@@ -10,7 +10,7 @@
   <body>
 <header class="main-header">
     <nav class="main-navigation">
-        <a class="main-header-logo">
+        <a class="main-header-logo" href="#">
           <img src="img\img-logo.png" alt="Логотип студии" width="160" height="65">
         </a>
         <ul class="site-navigation">
@@ -51,19 +51,19 @@
                <a href="#"><img src="img\site-logo.png" alt="Веб-сайты" width="300" height="146"></a>
                <h2 class="services-text">Веб-сайты</h2>
                <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-               <button type="button">Заказать</button>
+               <button class="btn-order-site" type="button">Заказать</button>
            </article>
            <article class="apps">
                <a href="#"><img src="img\apps-logo.png" alt="Приложения" width="300" height="146"></a>
                <h2 class="services-text">Приложения</h2>
                <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-               <button type="button">Заказать</button>
+               <button class="btn-order-apps"type="button">Заказать</button>
            </article>
            <article class="presentations">
                <a href="#"><img src="img\presentations-logo.png" alt="Презентации" width="300" height="146"></a>
                <h2 class="services-text">Презентации</h2>
                <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-               <button type="button">Заказать</button>
+               <button class="btn-order-presentations" type="button">Заказать</button>
            </article>
        </section>
           <article class="about-us">
@@ -108,9 +108,9 @@
     <p class="discont">Скидка 10% для друзей из социальных сетей.</p>
     <div class="footer-social">
         <ul>
-            <li><a class="social-buttom" href="#">Вконтакте</a></li>
-            <li><a class="social-buttom" href="#"> Фейсбук</a></li>
-            <li><a class="social-buttom" href="#"> Телеграм</a></li>
+            <li class="social-buttom"> <a href="#">Вконтакте</a></li>
+            <li class="social-buttom"><a href="#"> Фейсбук</a></li>
+            <li class="social-buttom"><a href="#"> Телеграм</a></li>
         </ul>
     </div>
     <section class="map">
@@ -128,7 +128,7 @@
     </section>
 </footer>
       <section class="write-us-form"> 
-             <h4>Напишите нам</h4>
+             <h4 class="write-us-head">Напишите нам</h4>
             <form class="write-form" action="https://https://echo.htmlacademy.ru" method="post">
                 <label for="write-form-name">Ваше имя:</label>
                 <input type="text" name="name" id="write-form-name" value="Ваше имя" placeholder="Имя Фамилия" required>
@@ -136,7 +136,7 @@
                 <input type="e-mail" name="email" id="write-form-email" value="Ваша почта" method="post" placeholder="email@example.com" required>
                 <label for="write-form-letter">Текст письма:</label>
                 <textarea id="write-form-letter" name="letter" rows="5" placeholder="В свободной форме"></textarea>
-                <button type="submit" value="Отправить" tabindex="0"></button>
+                <button class="btn" type="submit" value="Отправить" tabindex="0"></button>
             </form>
              <button class="write-form-close" type="button" tabindex="0">Закрыть</button>
         </section>
